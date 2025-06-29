@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
 
-import { StartScreen } from './pages/StartScreen/StartScreen';
 import { CreateQuiz } from './pages/CreateQuiz';
 import { ChooseQuiz } from './pages/ChooseQuiz';
 import { QuizGame } from './pages/QuizGame';
 import NotFoundpage from './NotFoundpage';
+import { StartScreen } from './pages/StartScreen';
 
 export function App() {
   return (
