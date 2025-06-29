@@ -26,6 +26,7 @@ export const QuizGame = () => {
   const handleReset = () => {
     setIsFinished(false);
     setCurrentIndex(0);
+    setScore(0);
   };
 
   const percentOfCorrectAns = Math.round((currentIndex / quizGame.length) * 100);
